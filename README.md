@@ -33,3 +33,10 @@ node_modules/hello-webpack
 - 需要注意的是 Babel 在把 ES6 代码转换成 ES5 代码时会注入一些辅助函数
 
 > 本例子仅支持tsx+less的组件编写方式 如果需要扩展或者更改请修改webpack配置 均有相应的注释
+
+#### 发布流程
+
+- yarn build 生成发布包
+- 修改packjson的name还有其他配置为你需要的配置
+- npm adduser 按流程填账号密码邮箱
+- npm publish 最终发布 注意 每次publish前都要更新一次版本号
