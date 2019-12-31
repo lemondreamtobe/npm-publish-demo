@@ -1,6 +1,6 @@
 {
   "name": "npm-publish-demo-webpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "if you want to create a npm project, this library maybe is suitable for you",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",

@@ -29,7 +29,7 @@ node_modules/hello-webpack
 - 使用 babel-loader 把 ES6 代码转换成 ES5 的代码
 - 通过开启 devtool: 'source-map' 输出 Source Map 以发布调试
 - 设置 output.libraryTarget='commonjs2' 使输出的代码符合CommonJS2 模块化规范，以供给其它模块导入使用
-- 需要通过 css-loader 和 extract-text-webpack-plugin 解决样式引入的资源 
+- 需要通过 less-loader 和 MiniCssExtractPlugin 解决样式引入的资源 
 - 需要注意的是 Babel 在把 ES6 代码转换成 ES5 代码时会注入一些辅助函数
 
 > 本例子仅支持tsx+less的组件编写方式 如果需要扩展或者更改请修改webpack配置 均有相应的注释
